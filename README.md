@@ -5,4 +5,13 @@ The basis of the plugin is a custom pawn MMT_Pawn, which has a custom event "MMT
 
 More information can be found here:
 https://forums.unrealengine.com/showthread.php?99605-OPEN-SOURCE-Machinery-Modelling-Toolkit
-"# FDPTank" 
+
+# FDPTank
+It’s a final degree project that consist to make a tank game based in World of Tanks or WarThunder games.
+
+I’m making this project because I want to learn how the games works, then the best way to learn it is making one.
+Thanks very much to BoredEngineer to make MMT_Content, It’s very useful and help me a lot to understand the UE4 functionalities. 
+
+I’m making this for my educational purpose, I'm not planing to use this progect for bussines purpose.
+
+
