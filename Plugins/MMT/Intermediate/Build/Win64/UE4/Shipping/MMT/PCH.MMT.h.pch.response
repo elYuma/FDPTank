@@ -1,0 +1,258 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gy
+/Zm850
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/source-charset:utf-8 /execution-charset:utf-8
+/Ox
+/Ot
+/Ob2
+/errorReport:prompt
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/wd4463
+/wd4838
+/w44668
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source
+/I E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Source\MMT\Private
+/I E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Source
+/I E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Source\MMT\Public
+/I E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Inc\MMT
+/I E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Source\MMT
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Async
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Containers
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Delegates
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\GenericPlatform
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\HAL
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Logging
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Math
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Misc
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Modules
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Modules\Boilerplate
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\ProfilingDebugging
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Serialization
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Serialization\Csv
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Stats
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Templates
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\UObject
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core\Public\Windows
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Core
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\CoreUObject\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Blueprint
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Internationalization
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Misc
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Serialization
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Templates
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\UObject
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\CoreUObject
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\CoreUObject
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Classes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\AI
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\AI\Navigation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Animation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Curves
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\EdGraph
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Internationalization
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Net
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\PacketHandlers
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Performance
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Physics
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\ProfilingDebugging
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Rendering
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Slate
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\Tests
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine\Public\VisualLogger
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\Engine
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Engine
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\HAL
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\Windows
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ApplicationCore
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\RHI\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\RHI
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Json\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Json\Public\Dom
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Json\Public\Policies
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Json\Public\Serialization
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Json
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Animation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Application
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Brushes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Fonts
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Input
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Layout
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Logging
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Rendering
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Sound
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Stats
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Styling
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Textures
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Types
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Widgets
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\SlateCore
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SlateCore
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\InputCore\Classes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\InputCore\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\InputCore\Public\GenericPlatform
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\InputCore\Public\HAL
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\InputCore\Public\Windows
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\InputCore
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\InputCore
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Application
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Commands
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Docking
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Layout
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\MetaData
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\MultiBox
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Notifications
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Styling
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Text
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Views
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Colors
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Docking
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Images
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Input
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Layout
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Navigation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Notifications
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Text
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Views
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\Slate
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Slate
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ImageWrapper\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ImageWrapper
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MessagingCommon\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MessagingCommon
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Messaging\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Messaging
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\RenderCore\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\RenderCore
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ShaderCore\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ShaderCore
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UtilityShaders\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UtilityShaders
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AssetRegistry\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\AssetRegistry
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AssetRegistry
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\EngineMessages\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\EngineMessages
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\EngineMessages
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\EngineSettings\Classes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\EngineSettings\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\EngineSettings
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\EngineSettings
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SynthBenchmark\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\SynthBenchmark
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Renderer\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\Renderer
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Renderer
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\GameplayTags\Classes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\GameplayTags\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\GameplayTags
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\GameplayTags
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AIModule\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AIModule\Classes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AIModule
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\GameplayTasks\Classes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\GameplayTasks\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\GameplayTasks
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\GameplayTasks
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\DatabaseSupport\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\DatabaseSupport
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\PacketHandler
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\HardwareSurvey\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\HardwareSurvey
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\ClothingSystemRuntimeInterface
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntimeInterface
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AudioMixer\Classes
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AudioMixer\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AudioMixer\Public\Components
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AudioMixer\Public\DSP
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\AudioMixer
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\AudioMixer
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UMG\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UMG\Public\Animation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UMG\Public\Binding
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UMG\Public\Blueprint
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UMG\Public\Components
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UMG\Public\Slate
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\UMG
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\UMG
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\Interfaces
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\Windows
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\Online\HTTP
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieScene\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Compilation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Evaluation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Generators
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieScene
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Sections
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks
+/I E:\TFG_IG\UE\UE_4.18\Engine\Intermediate\Build\Win64\UE4\Inc\MovieSceneTracks
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\Runtime\MovieSceneTracks
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PxShared\include
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PxShared\include\cudamanager
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PxShared\include\filebuf
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PxShared\include\foundation
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PxShared\include\pvd
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PxShared\include\task
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include\cooking
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include\common
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include\extensions
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Include\geometry
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\include
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\include\clothing
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\include\nvparameterized
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\include\legacy
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\include\PhysX3
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\common\include
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\common\include\autogen
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\framework\include
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\framework\include\autogen
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\shared\general\RenderDebug\public
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\shared\general\PairFilter\include
+/I E:\TFG_IG\UE\UE_4.18\Engine\Source\ThirdParty\PhysX\APEX_1.4\shared\internal\include
+/D_HAS_EXCEPTIONS=0
+/I E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Shipping\MMT
+/Yc"E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Shipping\MMT\PCH.MMT.h"
+/Fp"E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Shipping\MMT\PCH.MMT.h.pch"
+/YlPCH.MMT
+"E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Shipping\MMT\PCH.MMT.cpp"
+/Fo"E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Shipping\MMT\PCH.MMT.h.obj"
+/TP
+/GR-
+/W4

@@ -1,0 +1,10 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/LTCG
+"E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Shipping\MMT\PCH.MMT.h.obj"
+"E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Shipping\MMT\Module.MMT.cpp.obj"
+"E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Intermediate\Build\Win64\UE4\Shipping\MMT\Module.MMT.gen.cpp.obj"
+"E:\Git\TFG\MMT_Content-master\FDPTank\Intermediate\Build\Win64\UE4\Shipping\MMT\PCLaunch.rc.res"
+/OUT:"E:\Git\TFG\MMT_Content-master\FDPTank\Plugins\MMT\Binaries\Win64\UE4-MMT-Win64-Shipping.lib"
